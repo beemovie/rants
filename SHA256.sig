@@ -1,0 +1,3 @@
+untrusted comment: verify with beehive.pub
+RWTXliExJCquO+eQJfK+U2X4jAlo6rv8AZfev1zAQrLym4oqbXFUyTP/DHAgVWmlSLkaqG83eagJ+WDp4/PA92LwXg3Rw8Rp0AU=
+SHA256 (COPYING) = 57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6
