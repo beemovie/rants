@@ -1,3 +1,4 @@
 untrusted comment: verify with beehive.pub
-RWTXliExJCquO+eQJfK+U2X4jAlo6rv8AZfev1zAQrLym4oqbXFUyTP/DHAgVWmlSLkaqG83eagJ+WDp4/PA92LwXg3Rw8Rp0AU=
+RWTXliExJCquO/1WvX11V0j2ZI8M2++bedXwrDAtqQEnYiZybBXpgusLzNAdJIhDzKw/4bgphvpiuE0t6I5puROYgqshAszloQg=
 SHA256 (COPYING) = 57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6
+SHA256 (README.md) = b4e41017473a62262a86eb01491ae2e8082796aa88f29bb298dd6783dc89d89a
