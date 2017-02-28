@@ -17,4 +17,4 @@ later version. See [COPYING](COPYING) for the full text of the License.
 Signatures with [signify](http://man.openbsd.org/signify) are made on each
 commit for authorship verification; these signatures can be checked with:
 
-    signify -C -p static/signify.pub -x SHA256.sig
+    signify -C -p signify.pub -x SHA256.sig

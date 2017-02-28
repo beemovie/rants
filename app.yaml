@@ -24,8 +24,8 @@ handlers:
 
 - url: /signify\.pub$
   mime_type: text/plain
-  static_files: static/signify.pub
-  upload: static/signify\.pub$
+  static_files: signify.pub
+  upload: signify\.pub$
 
 - url: /static
   static_dir: static
