@@ -1,12 +1,13 @@
 untrusted comment: verify with beehive.pub
-RWTXliExJCquO3NlX2pxOFSNlPzPdfIVOj4A7MIF5N+vtkQhck6bcwlHQaJlBn5Fswwdn/Y2sciVz1dZnAnCK2bgZglT8y0yfQk=
+RWTXliExJCquOwhCXlt1ekbkOoKaZrHd7rFuNpxugPD3S+2ySe5CDHbSfOvo7HFmyTAcxR4Eei2f53F/EYPiyRr7NV1NtfKuCAQ=
 SHA256 (COPYING) = 57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6
-SHA256 (README.md) = b4e41017473a62262a86eb01491ae2e8082796aa88f29bb298dd6783dc89d89a
-SHA256 (app.yaml) = 952641b3da6aa23a0243ed80dcc36c8c92d1bb125bf96b6c39fb3333688f8c95
+SHA256 (README.md) = 7807b330f0f691e76e3da70d41bceb6208b4535b6524f238f4461ee638cbf03e
+SHA256 (app.yaml) = 810e2cf50e211c4f173b2a70731aead4838823f588e244dc14c3b00ec3994f27
 SHA256 (content/index.md) = c7673c9b8c9e4c26b0830248eb73ccc777cf204ed8ae06b500fd1e42f436b9a5
 SHA256 (server.go) = c546678cff91d2bb30d9db26be26056d57375646f7e3d35c452f3bd6c698f4b4
 SHA256 (static/favicon.ico) = c9935c0899d8616ca178fad77d93bcb6c649381ba13ba3fcdfd004af043f0ca0
 SHA256 (static/rants.css) = 01a17e501f09c6c3dd655f484ca2663770b050b12640182a273e20f1107ed84b
 SHA256 (static/robots.txt) = 331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1
+SHA256 (static/signify.pub) = 687b386324a9db02627768913156ab53ed50a1ff309dd6cc28e83ec142b0a3e4
 SHA256 (templates/index.html) = b086cae0a030355b3418cd5dcfd2d6c6ac36a798dd01a5b16fdf4c68eff4fe8b
 SHA256 (templates/license-snippet.txt) = 9ffc194fee035c359bd34e4040e7eef8c09b7cee449fa1bdda85a9f41a33023d
