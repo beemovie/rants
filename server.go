@@ -10,6 +10,7 @@ package rants
 
 import (
 	"encoding/xml"
+	"github.com/russross/blackfriday"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/log"
@@ -21,24 +22,28 @@ import (
 
 type State struct {
 	License template.HTML
+	Index   template.HTML
 	ctx     context.Context
 	tmpl    *template.Template
 }
 
 func newState() *State {
-	l, err := ioutil.ReadFile("templates/license-snippet.txt")
+	license, err := ioutil.ReadFile("templates/license-snippet.txt")
 	if err != nil {
 		panic(err)
 	}
-	license := template.HTML(string(l))
 
 	tmpl, err := template.ParseFiles("templates/index.html")
 	if err != nil {
 		panic(err)
 	}
 
+	md, err := ioutil.ReadFile("content/index.md")
+	index := blackfriday.MarkdownBasic(md)
+
 	return &State{
-		License: license,
+		License: template.HTML(license),
+		Index:   template.HTML(index),
 		tmpl:    tmpl,
 	}
 }
